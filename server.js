@@ -15,10 +15,9 @@ app.use(function(req, res, next) {
     next();
 });
 app.use('/api', router);
-
 var clients = {};
 
-var port = 3000 || process.env.PORT;
+var port = 8080 || process.env.PORT;
 
 server.listen(port, () => {
     console.log("listening on port " + port);
