@@ -1,0 +1,31 @@
+{
+  "name": "shop-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbslee/shop-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbslee/shop-server/issues"
+  },
+  "homepage": "https://github.com/fbslee/shop-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sha256": "^0.2.0"
+  }
+}
